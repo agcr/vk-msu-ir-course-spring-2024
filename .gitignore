@@ -161,3 +161,6 @@ cython_debug/
 
 # Environment
 .venvs
+
+# catboost aux files
+homeworks/learning-to-rank/catboost_info
