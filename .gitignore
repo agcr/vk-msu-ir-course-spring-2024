@@ -164,3 +164,6 @@ cython_debug/
 
 # catboost aux files
 homeworks/learning-to-rank/catboost_info
+homeworks/learning-to-rank/ltr_venv
+data/MSLR-WEB10K
+
