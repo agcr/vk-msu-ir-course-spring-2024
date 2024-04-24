@@ -1,0 +1,12 @@
+numpy
+hydra-core
+pandas
+nltk
+emoji
+torch
+torchmetrics
+lightning
+transformers
+composer
+torch_ema
+wandb
