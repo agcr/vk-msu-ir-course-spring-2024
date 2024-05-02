@@ -1,0 +1,10 @@
+datasets
+pandas
+numpy
+tqdm
+tensorflow_hub
+tensorflow
+torch
+annoy
+hnswlib
+
