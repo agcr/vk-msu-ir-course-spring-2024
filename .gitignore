@@ -166,4 +166,5 @@ cython_debug/
 homeworks/learning-to-rank/catboost_info
 homeworks/learning-to-rank/ltr_venv
 data/MSLR-WEB10K
+homeworks/vec_search/homework_sample.csv
 
