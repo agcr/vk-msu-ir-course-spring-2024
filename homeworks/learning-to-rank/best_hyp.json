@@ -1,0 +1,13 @@
+{
+    "loss_function" : "YetiRank:mode=Classic;num_neighbours=2",
+    "iterations": 2000,
+    "depth" :9,
+    "learning_rate" :0.05,
+    "min_data_in_leaf" : 1,
+    "use_best_model" : true,
+    "eval_metric": "NDCG:top=10;type=Exp",
+    "early_stopping_rounds" : 150,
+    "random_seed": 22,
+    "verbose": 10,
+    "l2_leaf_reg": 0.03
+}
