@@ -1,0 +1,1 @@
+{'bagging_temperature': 0.7825876839248045, 'border_count': 128, 'depth': 8, 'eval_metric': 'NDCG:top=10;type=Exp;hints=skip_train~false', 'grow_policy': 'Depthwise', 'iterations': 5870, 'l2_leaf_reg': 5.930424236293685, 'learning_rate': 0.09987631032212624, 'loss_function': 'YetiRank', 'random_seed': 42, 'task_type': 'GPU', 'use_best_model': True, 'verbose': 200}
