@@ -1,0 +1,4 @@
+_target_: "ranking_lib.dataset.dataset.RankDataset"
+
+data_path: "train.csv"
+preprocessor: ${datamodule.preprocessor}

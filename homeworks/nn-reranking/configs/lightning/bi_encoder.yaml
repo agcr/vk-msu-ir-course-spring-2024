@@ -1,0 +1,28 @@
+_target_: "ranking_lib.lightning_wrappers.BiEncoderWrapper"
+_recursive_: False
+
+defaults:
+  - model/bi_encoder
+
+loss:
+  _target_: "torch.nn.BCEWithLogitsLoss"
+
+optimizer:
+  _target_: "torch.optim.AdamW"
+  _recursive_: False
+  _partial_: True
+  lr: 2e-6
+  betas:
+    - 0.9
+    - 0.95
+  eps: 1e-08
+
+scheduler:
+  _target_: "torch.optim.lr_scheduler.OneCycleLR"
+  _recursive_: False
+  _partial_: True
+  max_lr: 1e-4
+  pct_start: 0.1
+  total_steps: ${trainer.max_steps}
+
+cosine_scaler: 6

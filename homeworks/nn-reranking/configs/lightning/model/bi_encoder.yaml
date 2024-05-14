@@ -1,0 +1,4 @@
+_target_: "ranking_lib.models.BiEncoder"
+_recursive_: False
+model_name: "amberoad/bert-multilingual-passage-reranking-msmarco"
+emb_size: 256

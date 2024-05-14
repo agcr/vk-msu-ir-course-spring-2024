@@ -1,0 +1,3 @@
+_target_: "ranking_lib.models.CrossEncoder"
+_recursive_: False
+model_name: "amberoad/bert-multilingual-passage-reranking-msmarco"

@@ -1,0 +1,1 @@
+python train.py lightning.model.model_name="xlm-roberta-base" exp_name="xlm-roberta-base-bi_encoder-fp16" datamodule.train_dataloader.batch_size=96 +lightning=bi_encoder model_type=bi_encoder ++trainer.precision=16

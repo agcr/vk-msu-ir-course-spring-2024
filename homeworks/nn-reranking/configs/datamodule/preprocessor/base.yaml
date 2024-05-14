@@ -1,0 +1,5 @@
+_target_: "ranking_lib.dataset.preprocess.BasePreprocessor"
+
+model_name: ${lightning.model.model_name}
+model_type: ${model_type}
+concat_title_strategy: "space"

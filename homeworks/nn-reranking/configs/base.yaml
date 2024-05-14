@@ -1,0 +1,19 @@
+_recursive_: False
+
+seed: 1337
+project: nn-reranking
+exp_name: "test"
+pretrained_ckpt_path: None
+resume_ckpt_path: None
+ema_decay: 0.
+model_type: "cross_encoder"
+trainer:
+  _target_: "lightning.Trainer"
+  _partial_: True
+  max_steps: 15000
+  gradient_clip_val: 100
+
+defaults:
+  - _self_
+  - datamodule/base
+  - lightning/cross_encoder
